@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+
+<body bgcolor="black">
+    <div ng-app="">
+        <font color="white">
+            <center>
+                <h1>Welcome to my Angular multiplication app!</h1>
+                <p>What is your name? <input type="text" ng-model="name" placeholder="Name ..."></p>
+                <h2>Hello {{name}}</h2>
+                <br>
+                <p>
+                    <h3>Lets find the product of two positive integers, shall we?</h3>
+                </p>
+                <p>Enter the first number <input type="text" ng-model="number1" placeholder="First number .."></p>
+                <p>Enter the second number <input type="text" ng-model="number2" placeholder="Second number .."></p>
+                <h2> Their product is {{number1*number2}}</h2>
+            </center>
+        </font>
+    </div>
+</body>
+
+</html>
